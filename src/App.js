@@ -9,7 +9,7 @@ const Contact = ({ nom, email, adresse, image }) => {
     
       <div className="contact">
         <div className="bg">
-        <img className="contact-image"  alt="photo de profil" src={`/img/${image}`} />
+        <img className="contact-image"  alt="profil" src={`/img/${image}`} />
         </div>
       <div>
         <h2>{nom}</h2>
